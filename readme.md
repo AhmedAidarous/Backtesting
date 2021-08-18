@@ -24,6 +24,17 @@ Rebalance the portfolio every month by removing the worse **x** stocks and repla
 
 
 ## Resistance Breakout
+Resistance breakout is a technical trading term which means that the price of the stock has breached a 
+presumed resistance level (determined by the price chart)
+
+When using this strategy, always go for high volume, high activity stock, so you would want to go for pre-market movers, or historically high volume stocks)
+
+For this strategy, I used price breaching 20 period rolling max/min price in conjunction with volume breaching rolling max volume, in definition though, **the breakout rule** 
+by definition refers to when the price of an asset moves above a resistance area, or moves below a support area. Breakouts indicate the potential for the price to start trending in the breakout direction.
+
+I will also be using exit/stop loss signals, as it's very important as it caps your losses. The exit signal will be using a 20 period ATR as the rolling stop loss price.
+
+Backtest the strategy by calculating the cumulative return for each stock.
 
 
 ## Renko & OBV
