@@ -38,10 +38,17 @@ Backtest the strategy by calculating the cumulative return for each stock.
 
 
 ## Renko & OBV
+Renko is a good way to look at the stock market, and identify trends that occur. The following is an example of what a Renko graph looks like:
+![image](https://user-images.githubusercontent.com/47617364/130065320-df7a4147-a226-4f81-8951-e507dfe8a58c.png)
+<br>
 
+This backtesting strategy should be used in stocks that have high volume, and high activity.
 
+### Buy Signal
+For this strategy, if the renko bar is >= 2, meaning if the **green bars go up by two steps** and at the same time if the 5 day OBV slope is greater than 30 degrees, **then that's the signal to buy!** Else if the renko bar is less than 2, then **exit.**
 
-
+### Sell Signal
+If the Renko bar is <= -2, and at the same instant, there is a 5 day OBV slope that is less than -30 degrees, then exit. 
 
 
 
