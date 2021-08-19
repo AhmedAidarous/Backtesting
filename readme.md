@@ -39,6 +39,13 @@ Backtest the strategy by calculating the cumulative return for each stock.
 
 ## Renko & OBV
 
+
+
+
+
+
+
+
 ## Renko * MACD
 
 
