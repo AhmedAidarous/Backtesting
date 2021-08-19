@@ -36,7 +36,6 @@ I will also be using exit/stop loss signals, as it's very important as it caps y
 
 Backtest the strategy by calculating the cumulative return for each stock.
 
-![Uploading image.png…]()
 
 
 ## Renko & OBV
