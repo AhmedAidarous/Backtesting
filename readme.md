@@ -36,6 +36,8 @@ I will also be using exit/stop loss signals, as it's very important as it caps y
 
 Backtest the strategy by calculating the cumulative return for each stock.
 
+![Uploading image.png…]()
+
 
 ## Renko & OBV
 Renko is a good way to look at the stock market, and identify trends that occur. The following is an example of what a Renko graph looks like:
